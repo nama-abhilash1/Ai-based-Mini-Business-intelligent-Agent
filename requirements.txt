@@ -1,0 +1,28 @@
+# AI Business Intelligence Assistant – Python dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Frontend ─────────────────────────────────────────────────────────────────
+streamlit>=1.33.0
+
+# ── Data processing ───────────────────────────────────────────────────────────
+pandas>=2.2.0
+pyarrow<18
+
+# ── LLM providers ─────────────────────────────────────────────────────────────
+# Google Gemini
+google-generativeai>=0.8.0
+
+# OpenAI (v1+ client)
+openai>=1.0.0
+
+# Anthropic Claude
+anthropic>=0.20.0
+
+# Groq Cloud
+groq>=0.9.0
+
+# ── Configuration ─────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+pytest>=8.0.0
